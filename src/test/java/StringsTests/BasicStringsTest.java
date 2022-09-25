@@ -25,6 +25,8 @@ public class BasicStringsTest {
         String actual = basicStrings.flipConcat(string1, string2);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -37,6 +39,8 @@ public class BasicStringsTest {
         String actual = basicStrings.flipConcat(string1, string2);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
 
@@ -50,6 +54,8 @@ public class BasicStringsTest {
         String actual = basicStrings.flipConcat(string1, string2);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -61,6 +67,8 @@ public class BasicStringsTest {
         char actual = basicStrings.getChar(string1, 4);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -72,6 +80,8 @@ public class BasicStringsTest {
         char actual = basicStrings.getChar(string1, 15);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -83,6 +93,8 @@ public class BasicStringsTest {
         String actual = basicStrings.iCantSee(string1);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected.length() + " -VS- " + actual.length());
     }
 
     @Test
@@ -94,6 +106,8 @@ public class BasicStringsTest {
         String actual = basicStrings.iCantSee(string1);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected.length() + " -VS- " + actual.length());
     }
 
     @Test
@@ -105,6 +119,8 @@ public class BasicStringsTest {
         String actual = basicStrings.iCantSee(string1);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected.length() + " -VS- " + actual.length());
     }
 
     @Test
@@ -116,6 +132,8 @@ public class BasicStringsTest {
         String actual = basicStrings.loudAndClear(string);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -127,6 +145,8 @@ public class BasicStringsTest {
         String actual = basicStrings.loudAndClear(string);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -138,6 +158,8 @@ public class BasicStringsTest {
         String actual = basicStrings.reverseCase(string);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -149,6 +171,8 @@ public class BasicStringsTest {
         String actual = basicStrings.reverseCase(string);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -160,6 +184,8 @@ public class BasicStringsTest {
         String actual = basicStrings.reverseCase(string);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -172,6 +198,8 @@ public class BasicStringsTest {
         String actual = basicStrings.oneAtATime(string1, string2);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -184,6 +212,8 @@ public class BasicStringsTest {
         String actual = basicStrings.oneAtATime(string1, string2);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
     @Test
@@ -191,11 +221,13 @@ public class BasicStringsTest {
         // Given
         String string1 = "Chr 9.0";
         String string2 = "oot";
-        String expected = "Chararar 7.0";
+        String expected = "Cohort 9.0";
         // When
         String actual = basicStrings.oneAtATime(string1, string2);
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + " -VS- " + actual);
     }
 
 

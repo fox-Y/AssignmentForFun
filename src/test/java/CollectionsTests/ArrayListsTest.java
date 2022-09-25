@@ -33,6 +33,9 @@ public class ArrayListsTest {
         original1.add(7);
         // Then
         Assert.assertEquals(original1, actual);
+
+        System.out.println(original1);
+        System.out.println(actual);
     }
 
     @Test
@@ -47,6 +50,9 @@ public class ArrayListsTest {
         ArrayList<Integer> actual = arrayLists.addShit(original1, original2);
         // Then
         Assert.assertEquals(original1, actual);
+
+        System.out.println(original1);
+        System.out.println(actual);
     }
 
     @Test
@@ -58,6 +64,9 @@ public class ArrayListsTest {
         ArrayList<Integer> actual = arrayLists.addShit(original1, original2);
         // Then
         Assert.assertEquals(original1, actual);
+
+        System.out.println(original1);
+        System.out.println(actual);
     }
 
     @Test
@@ -75,6 +84,9 @@ public class ArrayListsTest {
         Integer expected = 29;
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(actual);
+        System.out.println(expected);
     }
 
     @Test
@@ -89,6 +101,9 @@ public class ArrayListsTest {
         Integer expected = 14;
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(actual);
+        System.out.println(expected);
     }
 
     @Test
@@ -101,6 +116,9 @@ public class ArrayListsTest {
         Integer expected = 0;
         // Then
         Assert.assertEquals(expected, actual);
+
+        System.out.println(actual);
+        System.out.println(expected);
     }
 
     @Test
@@ -120,6 +138,9 @@ public class ArrayListsTest {
         original.remove(0);
         // Then
         Assert.assertEquals(original, actual);
+
+        System.out.println(original);
+        System.out.println(actual);
     }
 
     @Test
@@ -138,6 +159,9 @@ public class ArrayListsTest {
         original.remove(1);
         // Then
         Assert.assertEquals(original, actual);
+
+        System.out.println(original);
+        System.out.println(actual);
     }
 
     @Test
@@ -154,6 +178,9 @@ public class ArrayListsTest {
         ArrayList<Integer> actual = arrayLists.removeAll(original, toRemove);
         // Then
         Assert.assertEquals(original, actual);
+
+        System.out.println(original);
+        System.out.println(actual);
     }
 
     @Test
@@ -169,6 +196,8 @@ public class ArrayListsTest {
         boolean actual = arrayLists.happyList(original);
         // Then
         Assert.assertTrue(actual);
+
+        System.out.println(actual);
     }
 
     @Test
@@ -184,6 +213,8 @@ public class ArrayListsTest {
         boolean actual = arrayLists.happyList(original);
         // Then
         Assert.assertFalse(actual);
+
+        System.out.println(actual);
     }
 
     @Test
@@ -194,6 +225,8 @@ public class ArrayListsTest {
         boolean actual = arrayLists.happyList(original);
         // Then
         Assert.assertTrue(actual);
+
+        System.out.println(actual);
     }
 
     @Test
@@ -205,6 +238,8 @@ public class ArrayListsTest {
         boolean actual = arrayLists.happyList(original);
         // Then
         Assert.assertTrue(actual);
+
+        System.out.println(actual);
     }
 
     @Test
@@ -218,6 +253,8 @@ public class ArrayListsTest {
         boolean actual = arrayLists.happyList(original);
         // Then
         Assert.assertFalse(actual);
+
+        System.out.println(actual);
     }
 
 }

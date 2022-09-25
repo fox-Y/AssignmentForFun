@@ -76,6 +76,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 12;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -89,6 +91,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 8;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -102,6 +106,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 17;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -115,6 +121,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 1;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -126,6 +134,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 26;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -137,6 +147,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 6;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -148,6 +160,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 70;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -162,6 +176,8 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 8843;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
     @Test
@@ -176,6 +192,10 @@ public class DansDilemmaTests {
         // Then
         Integer expected = 15632976;
         Assert.assertEquals(expected, actual);
+
+        System.out.println(expected + "-VS-" + actual);
     }
 
 }
+
+
